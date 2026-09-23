@@ -1,18 +1,18 @@
 {
-    "name": "equicord",
-    "private": "true",
-    "version": "1.15.6.0",
-    "description": "The other cutest Discord client mod",
-    "homepage": "https://github.com/Equicord/Equicord#readme",
-    "bugs": {
-        "url": "https://github.com/Equicord/Equicord/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Equicord/Equicord.git"
-    },
-    "license": "GPL-3.0-or-later",
-    "author": "Equicord",
+  "name": "arden",
+  "private": true,
+  "version": "1.15.6.0",
+  "description": "Arden — a customizable Discord client mod",
+  "homepage": "https://github.com/Aces22378-Dev/Arden#readme",
+  "bugs": {
+    "url": "https://github.com/Aces22378-Dev/Arden/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aces22378-Dev/Arden.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Aces22378-Dev",
     "scripts": {
         "build": "node --require=./scripts/suppressExperimentalWarnings.js scripts/build/build.mjs",
         "buildStandalone": "pnpm build --standalone",
