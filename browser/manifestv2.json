@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "minimum_chrome_version": "91",
-    "name": "Equicord Web",
-    "description": "The other cutest Discord mod now in your browser",
-    "author": "Equicord",
-    "homepage_url": "https://github.com/Equicord/Equicord",
+    "name": "Arden Web",
+    "description": "The other other cutest Discord mod now in your browser",
+    "author": "Aces22378-Dev",
+    "homepage_url": "https://github.com/Aces22378-Dev/Arden",
     "icons": {
         "128": "icon.png"
     },
