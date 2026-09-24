@@ -40,6 +40,11 @@ jobs:
                   pnpm generateVencordPluginJson dist/vencordplugins.json
                   pnpm generateDevsList dist/devs.json
 
+            - name: Show built files
+              run: |
+                  ls -la dist
+                  find dist -maxdepth 1 -type f -printf '%f\n' | sort
+
             - name: Collect files to be released
               run: |
                   cd dist
