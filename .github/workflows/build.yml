@@ -70,7 +70,7 @@ jobs:
             - name: Upload Arden Stable
               if: ${{ github.ref == 'refs/heads/main' }}
               run: |
-                  gh release upload latest --clobber dist/release/*
+                  gh release upload v1.0.0 --clobber dist/release/*
 
             - name: Upload Plugin JSONs to Equibored repo
               if: false
